@@ -195,7 +195,7 @@ img{max-width:100%}
 <a href="#days">三日行程</a>
 <a href="#d1">D1 角板山・龍潭</a>
 <a href="#d2">D2 慈湖・埔頂森林</a>
-<a href="#d3">D3 龍安森林・1968文創</a>
+<a href="#d3">D3 虎頭山・1968文創</a>
 <a href="#backup">🌀 雨天備案</a>
 <a href="#food">餐廳清單</a>
 </div>
@@ -209,7 +209,7 @@ img{max-width:100%}
 <a href="#days" onclick="closeDrawer()">三日行程</a>
 <a href="#d1" onclick="closeDrawer()">D1 角板山・龍潭 <span class="ddate">12/25</span></a>
 <a href="#d2" onclick="closeDrawer()">D2 慈湖・埔頂森林 <span class="ddate">12/26</span></a>
-<a href="#d3" onclick="closeDrawer()">D3 龍安森林・1968文創 <span class="ddate">12/27</span></a>
+<a href="#d3" onclick="closeDrawer()">D3 虎頭山・1968文創 <span class="ddate">12/27</span></a>
 <a href="#backup" onclick="closeDrawer()">🌀 雨天備案</a>
 <a href="#food" onclick="closeDrawer()">餐廳清單</a>
 </div>
@@ -295,11 +295,11 @@ img{max-width:100%}
 <div class="node base"><span class="n">過夜</span><div class="city">韋廷家</div><div class="meta">桃園晚餐後返回過夜</div></div>
 </div></div>
 <div class="route-day">
-<div class="dlabel">D3・12/27（日）龍安森林 × 1968 文創</div>
+<div class="dlabel">D3・12/27（日）虎頭山森林 × 1968 文創</div>
 <div class="route">
 <div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
 <div class="arrow">→</div>
-<div class="node"><span class="n">D3</span><div class="city">龍安森林步道</div><div class="meta">桃園區・龍安街綠廊</div></div>
+<div class="node"><span class="n">D3</span><div class="city">虎頭山公園</div><div class="meta">桃園區・全齡友善步道</div></div>
 <div class="arrow">→</div>
 <div class="node"><span class="n">D3</span><div class="city">1968 文創園區</div><div class="meta">龜山・眷村文化園區</div></div>
 <div class="arrow">→</div>
@@ -415,12 +415,12 @@ const DAYS=[
    {t:"17:00-18:00",cat:"drive",name:"返回桃園市區",desc:"車程約 30 分鐘，返回桃園市區，準備晚餐。",addr:"桃園區",lat:24.9900,lng:121.3000},
    {t:"18:30-20:00",cat:"food",name:"桃園晚餐｜在地美食",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/桃園藝文特區美食\" target=\"_blank\">桃園藝文特區美食</a>（多元料理）<br>2. <a href=\"https://www.google.com/maps/search/桃園夜市美食\" target=\"_blank\">桃園夜市美食</a>（夜市小吃）<br>選定後可直接導航前往。",addr:"桃園區晚餐地點",lat:24.9900,lng:121.3000}
    ],
-   tip:"晚餐後返回韋廷家（龍潭）休息。12/27 早上從韋廷家出發前往龍安森林步道。",
+   tip:"晚餐後返回韋廷家（龍潭）休息。12/27 早上從韋廷家出發前往虎頭山公園。",
  },
- {no:3,date:"12/27",wd:"日",title:"龍安森林步道 × 1968 文創園區",img:IMG.d3,
-  route:"行程最為寬鬆的一天，深入體驗森林步道與文創園區，午後悠閒返程。",
+ {no:3,date:"12/27",wd:"日",title:"虎頭山森林 × 1968 文創園區",img:IMG.d3,
+   route:"行程最為寬鬆的一天，上午在虎頭山公園森林浴，下午 1968 文創園區，午後悠閒返程。",
   items:[
-  {t:"09:00-11:00",cat:"hike",name:"城市森林｜龍安森林步道",desc:"O 型平緩路線，穿梭於桃園市區綠廊間，可觀察城市生態與鳥類。全程約 1.2 公里，鋪設完善。",addr:"桃園區龍安街",lat:24.9950,lng:121.2950},
+  {t:"09:00-11:00",cat:"hike",name:"城市森林｜虎頭山公園全齡友善步道",desc:"全齡友善斜坡棧道寬敞平緩，輪椅、嬰兒車都能走，沿途綠蔭與奧爾森林學堂，都市中難得的森林氣息，適合全家大小。",addr:"桃園區虎頭山公園（公園路）",lat:24.9985,lng:121.2930},
   {t:"11:30-13:00",cat:"food",name:"1968 文創園區午餐｜華泰名品城",desc:"【午餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/華泰名品城美食\" target=\"_blank\">華泰名品城美食</a>（連鎖餐廳，★4.3）<br>2. <a href=\"https://www.google.com/maps/search/1968 文創園區咖啡\" target=\"_blank\">1968 文創園區咖啡</a>（文創咖啡，★4.2）<br>選定後可直接導航前往。",addr:"龜山區午餐地點",lat:25.0100,lng:121.2200},
   {t:"13:30-15:00",cat:"shot",name:"文創體驗｜1968 全聯文創園區",desc:"由舊軍營改造的文創園區，結合藝術展覽、手作體驗與咖啡廳。園區寬敞，適合全家大小。",addr:"龜山區復興路三段 100 號",lat:25.0100,lng:121.2200},
   {t:"15:30-16:30",cat:"drive",name:"返程",desc:"開車返回桃園市區或機場，結束愉快的三日之旅。",addr:"桃園區",lat:24.9900,lng:121.3000}
@@ -443,9 +443,9 @@ const BACKUPS=[
    {orig:"埔頂公園森林步道",alt:"龍潭龍山寺（室內）",detail:"📍 龍潭區龍山路二段 123 號 ｜ 🕘 06:00–22:00 ｜ 免費 ｜ 百年古廟，建築精美"}
   ],
   route:"桃園 → 慈湖紀念雕塑公園（09:00）→ 大溪老街午餐（11:30）→ 龍山寺（14:00）→ 桃園晚餐（18:30）"},
- {no:3,title:"D3 龍安森林・1968 備案",
+ {no:3,title:"D3 虎頭山・1968 備案",
   items:[
-   {orig:"龍安森林步道",alt:"桃園市立圖書館新總館",detail:"📍 中壢區中大路二段 200 號 ｜ 🕘 09:00–21:00 ｜ 免費 ｜ 現代建築＋親子閱讀空間"},
+   {orig:"虎頭山公園",alt:"桃園市立圖書館新總館",detail:"📍 中壢區中大路二段 200 號 ｜ 🕘 09:00–21:00 ｜ 免費 ｜ 現代建築＋親子閱讀空間"},
    {orig:"1968 文創園區",alt:"華泰名品城（室內購物）",detail:"📍 大溪區萬壽路二段 138 號 ｜ 🕘 11:00–22:00 ｜ 免費 ｜ 品牌Outlet＋美食廣場"}
   ],
   route:"桃園 → 桃園市立圖書館（09:00）→ 中壢商圈午餐（11:30）→ 華泰名品城（13:30）→ 返程（15:30）"}
