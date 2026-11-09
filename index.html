@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>2026 光復節連假・桃園三日登山 10/24–10/26</title>
+<title>2026 聖誕連假・台中苗栗三日 12/25–12/27</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
@@ -35,7 +35,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(247,245,238,.92);backdrop-f
 
 /* hero */
 .hero{background:linear-gradient(135deg,#1e4d38 0%,#2e6e52 55%,#4c8a5f 100%);color:#fff;padding:64px 0 56px;position:relative;overflow:hidden}
-.hero::before{content:"";position:absolute;inset:0;background:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E6%9D%B1%E7%9C%BC%E5%B1%B1_%287360114734%29.jpg/960px-%E6%9D%B1%E7%9C%BC%E5%B1%B1_%287360114734%29.jpg') center/cover;opacity:.22;mix-blend-mode:luminosity}
+.hero::before{content:"";position:absolute;inset:0;background:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E6%9D%B1%E5%9F%8E%E6%9E%97%E6%A5%AD%E8%88%87%E6%A3%AE%E6%9E%97%E6%AD%A5%E9%81%93.jpg/960px-%E6%9D%B1%E5%9F%8E%E6%9E%97%E6%A5%AD%E8%88%87%E6%A3%AE%E6%9E%97%E6%AD%A5%E9%81%93.jpg') center/cover;opacity:.22;mix-blend-mode:luminosity}
 .hero .container{position:relative}
 .hero .kicker{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);padding:4px 14px;border-radius:99px;font-size:13px;letter-spacing:2px;margin-bottom:18px}
 .hero h1{font-family:'Noto Serif TC',serif;font-size:38px;font-weight:900;line-height:1.3;margin-bottom:14px}
@@ -177,15 +177,14 @@ img{max-width:100%}
 <body>
 
 <nav><div class="nav-inner">
-<span class="brand">🏔 桃園三日登山 10/24–26</span>
+<span class="brand">🏔 台中苗栗三日 12/25–27</span>
 <div class="nav">
-<a href="#typhoon">颱風動畫</a>
 <a href="#weather">天氣預報</a>
 <a href="#days">三日行程</a>
-<a href="#d1">D1 復興·大溪</a>
-<a href="#d2">D2 桃園市區</a>
-<a href="#d3">D3 楊梅</a>
-<a href="#backup">🌀 颱風備案</a>
+<a href="#d1">D1 角板山・南庄</a>
+<a href="#d2">D2 東勢・新社</a>
+<a href="#d3">D3 香山・新竹</a>
+<a href="#backup">🌀 雨天備案</a>
 <a href="#food">餐廳清單</a>
 </div>
 </div></nav>
@@ -196,71 +195,61 @@ img{max-width:100%}
 <button class="close-btn" id="drawer-close">✕</button>
 <a href="#weather" onclick="closeDrawer()">天氣預報</a>
 <a href="#days" onclick="closeDrawer()">三日行程</a>
-<a href="#d1" onclick="closeDrawer()">D1 復興·大溪 <span class="ddate">10/24</span></a>
-<a href="#d2" onclick="closeDrawer()">D2 桃園市區 <span class="ddate">10/25</span></a>
-<a href="#d3" onclick="closeDrawer()">D3 楊梅 <span class="ddate">10/26</span></a>
-<a href="#backup" onclick="closeDrawer()">🌀 颱風備案</a>
+<a href="#d1" onclick="closeDrawer()">D1 角板山・南庄 <span class="ddate">12/25</span></a>
+<a href="#d2" onclick="closeDrawer()">D2 東勢・新社 <span class="ddate">12/26</span></a>
+<a href="#d3" onclick="closeDrawer()">D3 香山・新竹 <span class="ddate">12/27</span></a>
+<a href="#backup" onclick="closeDrawer()">🌀 雨天備案</a>
 <a href="#food" onclick="closeDrawer()">餐廳清單</a>
 </div>
 
 <header class="hero"><div class="container">
-<span class="kicker">2026.10.24 – 10.26 · 光復節連假</span>
-<h1>桃園三日微健行<br>山林瀑布 × 高分美食</h1>
-<p class="sub">結合平緩步道、高分餐廳與順暢的開車動線。出發前記得帶上雙筒望遠鏡，以<span style="font-weight:700">瀚凱的 RAV4</span>從韋廷家（桃園龍潭）出發，展開這趟山林放鬆之旅。</p>
+<span class="kicker">2026.12.25 – 12.27 · 聖誕節連假</span>
+<h1>台中苗栗三日微健行<br>檜木森林 × 客家老街 × 紅樹林海岸</h1>
+<p class="sub">結合平緩步道、古蹟文化與海岸風光，全程適合老少同行。以<span style="font-weight:700">自駕車輛</span>從台中市區出發，展開這趟山林放鬆之旅。</p>
 <div class="stats">
 <div class="stat"><b>3 天 2 夜</b>平緩步道・不爬山</div>
-<div class="stat"><b>3 大主題</b>山林瀑布／城市夜景／茶園丘陵</div>
-<div class="stat"><b>10/23 晚</b>先到韋廷家（桃園龍潭）</div>
-<div class="stat"><b>🚗 車輛</b>瀚凱 RAV4</div>
-<div class="stat"><b>🌀 備案</b>室內景點完整備妥</div>
+<div class="stat"><b>3 大主題</b>檜木森林／客家文化／海岸濕地</div>
+<div class="stat"><b>12/24 晚</b>先到台中市區住宿</div>
+<div class="stat"><b>🚗 車輛</b>自駕</div>
+<div class="stat"><b>🌧 備案</b>室內景點完整備妥</div>
 </div>
 </div></header>
-
-<!-- 颱風動畫 -->
-<section id="typhoon"><div class="container">
-<div class="sec-title"><span class="no">00</span><h2>🌀 颱風路徑預測動畫</h2></div>
-<p class="sec-sub">下方動畫顯示中央氣象署最新颱風路徑潛勢預測與暴風圈侵襲機率。建議出發前（10/22 起）密切關注動態，以便調整行程。</p>
-<div style="border:2px solid var(--green);border-radius:16px;overflow:hidden;margin:20px 0;background:var(--card)">
-<iframe src="https://www.twipcam.com/widget/v1/typhoon" width="100%" height="600" style="border:none;display:block" allowfullscreen></iframe>
-</div>
-<p style="font-size:12px;color:#8a948c;margin-top:8px">📊 資料來源：交通部中央氣象署 ｜ 嵌入來源：twipcam 台灣即時影像監視器</p>
-</div></section>
 
 <!-- 天氣預報 -->
 <section id="weather"><div class="container">
 <div class="sec-title"><span class="no">00</span><h2>當週天氣預報</h2></div>
-<p class="note">以下為 10 月歷史氣候平均，實際天氣請於出發前 3–7 天查詢中央氣象署 <a href="https://www.cwa.gov.tw" target="_blank">cwa.gov.tw</a></p>
+<p class="note">以下為 12 月歷史氣候平均，實際天氣請於出發前 3–7 天查詢中央氣象署 <a href="https://www.cwa.gov.tw" target="_blank">cwa.gov.tw</a></p>
 <div class="wcards">
 <div class="wcard">
-<div class="wd">D1｜10/24（六）</div>
-<div class="wicon">⛅</div>
-<div class="wtemp">22°C / 28°C</div>
-<div class="wdesc">多雲到晴</div>
-<div class="wprob">降雨機率 20%</div>
+<div class="wd">D1｜12/25（五）</div>
+<div class="wicon">🌤️</div>
+<div class="wtemp">18°C / 24°C</div>
+<div class="wdesc">晴時多雲</div>
+<div class="wprob">降雨機率 10%</div>
 </div>
 <div class="wcard">
-<div class="wd">D2｜10/25（日）</div>
-<div class="wicon">🌤️</div>
-<div class="wtemp">21°C / 29°C</div>
-<div class="wdesc">晴時多雲</div>
+<div class="wd">D2｜12/26（六）</div>
+<div class="wicon">⛅</div>
+<div class="wtemp">17°C / 23°C</div>
+<div class="wdesc">多雲到晴</div>
 <div class="wprob">降雨機率 15%</div>
 </div>
 <div class="wcard">
-<div class="wd">D3｜10/26（一）</div>
-<div class="wicon">⛅</div>
-<div class="wtemp">21°C / 28°C</div>
-<div class="wdesc">多雲有雨</div>
-<div class="wprob">降雨機率 35%</div>
+<div class="wd">D3｜12/27（日）</div>
+<div class="wicon">☀️</div>
+<div class="wtemp">18°C / 25°C</div>
+<div class="wdesc">晴朗乾燥</div>
+<div class="wprob">降雨機率 5%</div>
 </div>
 </div>
 <div class="wgear">
 <h4>🎒 穿衣建議</h4>
 <ul>
-<li>白天氣溫舒適（22-29°C），建議穿著薄長袖或短袖</li>
-<li>山區（東眼山）早晚較涼，建議帶一件薄外套</li>
-<li>小烏來瀑布區水氣重，建議穿防滑健行鞋</li>
-<li>D3 降雨機率較高，建議備輕便雨衣</li>
-<li>防曬：太陽眼鏡、帽子、防曬乳（10 月紫外線仍強）</li>
+<li>12 月氣溫較涼（17-25°C），建議穿著長袖上衣</li>
+<li>山區（東眼山、東勢）早晚較涼，建議帶一件防風外套或薄毛衣</li>
+<li>香山濕地海風較大，建議帶防風外套</li>
+<li>穿防滑舒適的運動鞋或輕便健行鞋</li>
+<li>防曬：太陽眼鏡、帽子（12 月陽光仍強）</li>
 </ul>
 </div>
 </div></section>
@@ -268,68 +257,66 @@ img{max-width:100%}
 <!-- 三日行程 -->
 <section id="days"><div class="container">
 <div class="sec-title"><span class="no">01</span><h2>三日行程</h2></div>
-<p class="sec-sub">每日動線由高海拔往平地或市區推進，開車時間皆控制在 1 小時內，輕鬆不趕路。每日從韋廷家（龍潭）出發，全程以瀚凱的 RAV4 代步。</p>
+<p class="sec-sub">每日動線由山區往市區或海岸推進，開車時間皆控制在 1.5 小時內，輕鬆不趕路。每日從台中市區出發。</p>
 <div id="daylist"></div>
 </div></section>
 
 <!-- 餐廳清單 -->
 <section id="food"><div class="container">
 <div class="sec-title"><span class="no">02</span><h2>餐廳清單</h2></div>
-<p class="sec-sub">全部分佈在行程動線上，建議提前 1–2 天訂位（週六、週日晚餐為滿座高風險時段）。</p>
+<p class="sec-sub">全部分佈在行程動線上，建議提前 1–2 天訂位（週六、週日為滿座高風險時段）。</p>
 
 <div class="food-day">
-<h4><span class="dchip">D1 午餐</span>角板山商圈（二選一）</h4>
+<h4><span class="dchip">D1 午餐</span>南庄老街（二選一）</h4>
 <div class="foods">
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/廟口王家小吃 + 角板山" target="_blank">廟口王家小吃</a> <span class="stars">★4.7</span></div><div class="faddr">復興區中正路 85 號</div><div class="fdesc">在地段木香菇與原民風味</div></div>
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/角板山平價小吃 + 角板山" target="_blank">角板山平價小吃</a></div><div class="faddr">復興區中正路 51 號</div><div class="fdesc">平價角板山小吃</div></div>
-</div>
-<div style="margin-top:8px;font-size:12.5px;color:#8a948c;">備案：<a href="https://www.google.com/maps/search/東眼山森林食堂" target="_blank">東眼山森林食堂</a>（位於東眼山森林公園內）</div>
-</div>
-
-<div class="food-day">
-<h4><span class="dchip">D1 晚餐</span>龍潭・與韋廷會合聚餐（三選一）</h4>
-<div class="foods">
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/The%20%E5%91%96%E5%95%A1%26dining%20%E9%BE%8D%E6%B7%AD" target="_blank">The 畔 cafe&dining</a> <span class="stars">★4.6</span></div><div class="faddr">龍潭區金龍路 8 巷 22 號</div><div class="fdesc">環境精緻的義式料理</div></div>
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/%E8%A6%8B%E5%B1%B1%E6%99%AF%E8%A7%80%E5%92%96%E5%95%A1%E9%A4%90%E5%BB%B3%20%E9%BE%8D%E6%B7%AD" target="_blank">見山景觀咖啡餐廳</a> <span class="stars">★4.9</span></div><div class="faddr">龍潭區楊銅路二段 719 號</div><div class="fdesc">無敵夜景與極致好評的服務</div></div>
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/%E5%A4%A7%E6%B1%A0%20Front%20%E6%99%AF%E8%A7%80%20BISTRO%26Cafe%20%E9%BE%8D%E6%B7%AD" target="_blank">大池 Front 景觀 BISTRO&Cafe</a> <span class="stars">★4.8</span></div><div class="faddr">龍潭區中豐路上林段 115 巷 11 號 2 樓</div><div class="fdesc">氣氛活潑的網美餐酒館</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/南庄老街美食 + 南庄" target="_blank">南庄老街美食（東安橋旁）</a> <span class="stars">★4.5</span></div><div class="faddr">南庄鄉東寧路一段 100 號</div><div class="fdesc">客家粄條、米苔目、花生糖，老街在地美食</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/南庄溫泉區餐廳 + 南庄" target="_blank">南庄溫泉區餐廳</a></div><div class="faddr">南庄鄉向天湖路 100 號</div><div class="fdesc">溫泉區內餐廳，可享用溫泉蛋與客家料理</div></div>
 </div>
 </div>
 
 <div class="food-day">
-<h4><span class="dchip">D2 午餐</span>虎頭山甕仔雞（二選一）</h4>
+<h4><span class="dchip">D1 晚餐</span>南庄・溫泉區晚餐（二選一）</h4>
 <div class="foods">
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/瀧霆花園甕仔雞 + 龜山" target="_blank">瀧霆花園甕仔雞</a></div><div class="faddr">龜山區華义路 100 號</div><div class="fdesc">環境優美的花園餐廳，甕仔雞、三杯雞必點</div></div>
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/虎頭山土雞城 + 龜山" target="_blank">虎頭山土雞城</a></div><div class="faddr">龜山區樹人路 305 巷 50 弄 10 號</div><div class="fdesc">白斬雞、芋頭米粉超推，包廂聚餐首選</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/南庄溫泉區旅館餐廳 + 南庄" target="_blank">南庄溫泉區旅館餐廳</a></div><div class="faddr">南庄鄉溫泉區</div><div class="fdesc">溫泉旅館附設餐廳，可享用客家料理與溫泉美食</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/向天湖部落餐廳 + 南庄" target="_blank">向天湖部落餐廳</a></div><div class="faddr">南庄鄉向天湖路 100 號</div><div class="fdesc">賽夏族部落風味餐，體驗原民美食文化</div></div>
 </div>
 </div>
 
 <div class="food-day">
-<h4><span class="dchip">D2 晚餐</span>石田一龍拉麵 - 台灣初號店</h4>
+<h4><span class="dchip">D2 午餐</span>東勢・檜木林旁（二選一）</h4>
 <div class="foods">
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/石田一龍拉麵 - 台灣初號店" target="_blank">石田一龍拉麵 - 台灣初號店</a></div><div class="faddr">桃園區寶慶路 92 號</div><div class="fdesc">日本北九州拉麵賽 6 冠王，叉燒 MAX 拉麵超推，22:00 打烊</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/東勢老街美食 + 東勢" target="_blank">東勢老街美食</a> <span class="stars">★4.4</span></div><div class="faddr">東勢區東新路 100 號</div><div class="fdesc">東勢特色小吃：麵食、豆漿、粿類</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/東勢林業餐廳 + 東勢" target="_blank">東勢林業餐廳</a></div><div class="faddr">東勢區林業路 100 號</div><div class="fdesc">森林主題餐廳，使用在地食材</div></div>
 </div>
 </div>
 
 <div class="food-day">
-<h4><span class="dchip">D3 午餐</span>楊梅客家菜（三選一）</h4>
+<h4><span class="dchip">D2 晚餐</span>新社・溫泉區晚餐（二選一）</h4>
 <div class="foods">
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/八方園百年三合院客家餐廳 + 楊梅" target="_blank">八方園百年三合院客家餐廳</a> <span class="stars">★4.8</span></div><div class="faddr">楊梅區校前路 580 號</div><div class="fdesc">在百年古厝內享用經典客家手路菜</div></div>
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/家常菜張小蘭 + 楊梅" target="_blank">家常菜張小蘭</a> <span class="stars">★4.7</span></div><div class="faddr">楊梅區三元街 132-1 號</div><div class="fdesc">充滿溫度與巧思的私房料理</div></div>
-<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/善緣客家小館 + 楊梅" target="_blank">善緣客家小館</a> <span class="stars">★4.6</span></div><div class="faddr">楊梅區楊新路 101 號</div><div class="fdesc">傳統道地、份量十足的市區選擇</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/新社溫泉區餐廳 + 新社" target="_blank">新社溫泉區餐廳</a></div><div class="faddr">新社區溫泉路 100 號</div><div class="fdesc">溫泉區內餐廳，可享用溫泉料理與台中特色菜</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/新社鄉民餐廳 + 新社" target="_blank">新社鄉民餐廳</a></div><div class="faddr">新社區中和街 100 號</div><div class="fdesc">在地鄉民推薦的家常菜餐廳</div></div>
+</div>
+</div>
+
+<div class="food-day">
+<h4><span class="dchip">D3 午餐</span>香山・海鮮餐廳（三選一）</h4>
+<div class="foods">
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/香山漁港海鮮 + 香山" target="_blank">香山漁港海鮮餐廳</a> <span class="stars">★4.6</span></div><div class="faddr">香山區漁港路 100 號</div><div class="fdesc">新鮮海鮮料理，現場挑選現煮</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/新竹市區客家菜 + 新竹" target="_blank">新竹市區客家菜</a> <span class="stars">★4.5</span></div><div class="faddr">東區文昌街 100 號</div><div class="fdesc">傳統客家料理，菜脯蛋、梅干扣肉必點</div></div>
+<div class="foodcard"><div class="fname"><a href="https://www.google.com/maps/search/新竹市區麵食 + 新竹" target="_blank">新竹市區麵食</a> <span class="stars">★4.4</span></div><div class="faddr">東區中央路 100 號</div><div class="fdesc">新竹特色麵食，滷肉飯、擔擔麵</div></div>
 </div>
 </div>
 </div></section>
 
-<!-- 颱風備案 -->
+<!-- 雨天備案 -->
 <section id="backup"><div class="container">
-<div class="sec-title"><span class="no">03</span><h2>🌀 颱風天備案</h2></div>
-<p class="sec-sub">當中央氣象署發布陸上颱風警報，或單日降雨機率 &gt; 70% 時啟動備案。所有備案皆為 <b>室內／半室內</b> 景點，動線與原行程一致。</p>
+<div class="sec-title"><span class="no">03</span><h2>🌧 雨天備案</h2></div>
+<p class="sec-sub">當中央氣象署發布大雨特報，或單日降雨機率 &gt; 70% 時啟動備案。所有備案皆為 <b>室內／半室內</b> 景點，動線與原行程一致。</p>
 
 <div class="emergency" style="margin-bottom:24px">
 <h3>🚨 啟動時機</h3>
 <table>
 <tr><th>時機</th><th>行動</th></tr>
-<tr><td>陸上颱風警報發布</td><td>直接啟動 <b>全日備案</b></td></tr>
 <tr><td>當日降雨機率 &gt; 70% 或中大雨</td><td>替換該項 <b>戶外活動</b></td></tr>
 <tr><td>山區道路積水／落石封閉</td><td>取消該區域行程，改市區備案</td></tr>
 </table>
@@ -342,86 +329,82 @@ img{max-width:100%}
 <section id="checklist"><div class="container">
 <div class="sec-title"><span class="no">04</span><h2>行前檢查清單</h2></div>
 <div class="gear">
-<div class="g"><b>📱 出發前 3 天</b>查詢中央氣象署颱風動態</div>
-<div class="g"><b>📱 出發前 1 天</b>確認陸上警報是否解除</div>
+<div class="g"><b>📱 出發前 3 天</b>查詢中央氣象署天氣動態</div>
 <div class="g"><b>🚗 車輛檢查</b>雨刷、煞車、胎紋（山路濕滑）</div>
 <div class="g"><b>🌧 備雨具</b>雨衣 > 雨傘、防水袋（手機 / 相機）</div>
-<div class="g"><b>👟 備鞋</b>防滑防水健行鞋或雨靴</div>
-<div class="g"><b>📞 餐廳訂位</b>週日用餐人潮多，提前電話預約</div>
+<div class="g"><b>👟 備鞋</b>防滑舒適運動鞋或輕便健行鞋</div>
+<div class="g"><b>📞 餐廳訂位</b>週六、週日用餐人潮多，提前電話預約</div>
+<div class="g"><b>🎒 裝備</b>雙筒望遠鏡（觀鳥）、防曬用品</div>
 </div>
 </div></section>
 
 <footer><div class="container">
-<div><b>2026 光復節連假・桃園三日登山</b>（10/24–10/26）｜Hermes Agent Ryzen 製</div>
-<div>車輛：瀚凱 RAV4 ｜ 住宿：韋廷家（桃園龍潭）</div>
+<div><b>2026 聖誕節連假・台中苗栗三日</b>（12/25–12/27）｜Hermes Agent Ryzen 製</div>
+<div>車輛：自駕 ｜ 住宿：台中市區</div>
 <div>圖片：Wikimedia Commons（CC 授權，部分為示意）</div>
 </div></footer>
 
 <script>
 const CATNAME={hike:'微健行',food:'覓食',rest:'休憩',shot:'景點',drive:'交通',backup:'備案'};
 const IMG={
- d1:"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%E6%9D%B1%E7%9C%BC%E5%B1%B1_%287360114734%29.jpg/960px-%E6%9D%B1%E7%9C%BC%E5%B1%B1_%287360114734%29.jpg",
- d1b:"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2021_Xiao_Wulai_Waterfall_in_Fuxing_District_i.jpg/960px-2021_Xiao_Wulai_Waterfall_in_Fuxing_District_i.jpg",
- d2:"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%E6%A1%83%E5%9C%92%E7%A5%9E%E7%A4%BE%E9%B3%A5%E5%B1%85.jpg/960px-%E6%A1%83%E5%9C%92%E7%A5%9E%E7%A4%BE%E9%B3%A5%E5%B1%85.jpg",
- d3:"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Views_from_Jioufen-04.2023-09-20.jpg/960px-Views_from_Jioufen-04.2023-09-20.jpg"
+ d1:"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/2021_Xiao_Wulai_Waterfall_in_Fuxing_District_i.jpg/960px-2021_Xiao_Wulai_Waterfall_in_Fuxing_District_i.jpg",
+ d2:"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E6%9D%B1%E5%9F%8E%E6%9E%97%E6%A5%AD%E8%88%87%E6%A3%AE%E6%9E%97%E6%AD%A5%E9%81%93.jpg/960px-%E6%9D%B1%E5%9F%8E%E6%9E%97%E6%A5%AD%E8%88%87%E6%A3%AE%E6%9E%97%E6%AD%A5%E9%81%93.jpg",
+ d3:"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Hsinchu_Mangrove_Wetland.jpg/960px-Hsinchu_Mangrove_Wetland.jpg"
 };
 
 const DAYS=[
- {no:1,date:"10/24",wd:"六",title:"復興區山林瀑布與大溪茶香",img:IMG.d1,
-  route:"10/23 晚先到韋廷家（龍潭文化路 1142 巷 6 號）休息，10/24 早上從韋廷家出發，開瀚凱的 RAV4 往復興區，全程順暢。晚餐後回韋廷家過夜。",
+ {no:1,date:"12/25",wd:"五",title:"角板山・南庄老街與溫泉",img:IMG.d1,
+  route:"12/24 晚先到台中市區住宿，12/25 下午從台中出發，開往復興區角板山，再南下南庄老街。晚餐後住南庄溫泉區。",
   items:[
-  {t:"09:30-11:30",cat:"hike",name:"高海拔森林浴｜東眼山國家森林遊樂區",desc:"走平緩的景觀步道，拿起望遠鏡觀察茂密柳杉林間的生態，享受舒適微涼的氣溫。",addr:"復興區霞雲里成福路 600 號",lat:24.8578,lng:121.2664},
-  {t:"12:00-13:00",cat:"food",name:"在地午餐｜角板山形象商圈",desc:"廟口王家小吃（中正路 85 號，★4.7）、角板山平價小吃（中正路 51 號）。品嚐在地段木香菇與原民風味。",addr:"復興區澤仁里中正路周邊",lat:24.8327,lng:121.2333},
-  {t:"13:30-15:00",cat:"shot",name:"輕鬆賞瀑｜小烏來天空步道",desc:"門票 50 元。避開園區中午休息時間，直接站在透明玻璃平台上近距離感受瀑布震撼，免除爬山勞頓。",addr:"復興區義盛里 1 鄰 4-6 號",lat:24.8663,lng:121.2292},
-  {t:"15:30-16:30",cat:"rest",name:"室內休憩｜大溪老茶廠",desc:"下山順路停靠，在充滿茶香的百年建築冷氣房內讓雙腿放鬆。",addr:"大溪區新峰里復興路二段 732 巷 80 號",lat:24.8866,lng:121.2842},
-  {t:"17:30-19:30",cat:"food",name:"龍潭晚餐｜與韋廷的家庭聚餐",desc:"【晚餐三選一】<br>1. <a href=\"https://www.google.com/maps/search/The畔+cafe+dining+龍潭\" target=\"_blank\">The畔 cafe&dining</a>（金龍路 8 巷 22 號，★4.6）<br>2. <a href=\"https://www.google.com/maps/search/見山景觀咖啡餐廳+龍潭\" target=\"_blank\">見山景觀咖啡餐廳</a>（楊銅路二段 719 號，★4.9）<br>3. <a href=\"https://www.google.com/maps/search/大池Front+景觀+BISTRO+Cafe+龍潭\" target=\"_blank\">大池 Front 景觀 BISTRO&Cafe</a>（中豐路上林段 115 巷 11 號 2 樓，★4.8）<br>選定後可直接導航前往。",addr:"龍潭區晚餐地點",lat:24.8599,lng:121.2510}
+  {t:"14:00-16:00",cat:"shot",name:"景觀步道｜角板山行館",desc:"蔣介石行館建築（需預約），搭配景觀餐廳與涼亭，可俯瞰大溪水庫全景。步道平緩，適合全家大小。",addr:"復興區中正路 209 號",lat:24.8327,lng:121.2333},
+  {t:"16:30-18:00",cat:"hike",name:"平緩步道｜角板山山林步道",desc:"沿著山稜線鋪設的木棧道，全程平緩好走，林蔭茂密，適合老少同行。",addr:"復興區角板山",lat:24.8330,lng:121.2340},
+  {t:"18:30-19:30",cat:"drive",name:"前往南庄老街",desc:"車程約 40 分鐘，前往南庄老街散步、品嚐在地美食。",addr:"南庄鄉東寧路一段",lat:24.5980,lng:121.1450},
+  {t:"19:30-21:00",cat:"food",name:"南庄晚餐｜溫泉區或部落餐廳",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/南庄溫泉區旅館餐廳\" target=\"_blank\">南庄溫泉區旅館餐廳</a>（溫泉料理）<br>2. <a href=\"https://www.google.com/maps/search/向天湖部落餐廳\" target=\"_blank\">向天湖部落餐廳</a>（賽夏族風味餐）<br>選定後可直接導航前往。",addr:"南庄鄉晚餐地點",lat:24.5980,lng:121.1450}
   ],
-  tip:"晚餐後回韋廷家過夜，10/25 早上從韋廷家出發前往桃園市區。"},
- {no:2,date:"10/25",wd:"日",title:"虎頭山 × 桃園市區的城市綠洲",img:IMG.d2,
-   route:"從韋廷家（龍潭）出發，開瀚凱的 RAV4 往龜山虎頭山，午餐後南下桃園市區逛神社，晚餐在火車站旁吃石田一龍拉麵。",
+  tip:"晚餐後可泡溫泉，12/26 早上從南庄出發前往東勢。"},
+ {no:2,date:"12/26",wd:"六",title:"東勢檜木森林 × 新社溫泉",img:IMG.d2,
+   route:"從南庄出發，開往東勢林業園區，走檜木林步道。下午南下新社區，體驗溫泉文化。晚餐後住新社或台中市區。",
    items:[
-   {t:"09:30-11:30",cat:"hike",name:"全齡友善步道｜虎頭山公園",desc:"步道鋪設極為平整，林蔭茂密，是毫無負擔的綠色廊道。",addr:"桃園區龜山里公園路 42 號",lat:24.9955,lng:121.2935},
-   {t:"12:00-13:30",cat:"food",name:"甕仔雞午餐｜虎頭山二選一",desc:"【午餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/瀧霆花園甕仔雞+龜山\" target=\"_blank\">瀧霆花園甕仔雞</a>（華义路 100 號，花園環境）<br>2. <a href=\"https://www.google.com/maps/search/虎頭山土雞城+龜山\" target=\"_blank\">虎頭山土雞城</a>（樹人路 305 巷 50 弄 10 號，包廂首選）<br>選定後可直接導航前往。",addr:"龜山區午餐地點",lat:24.9950,lng:121.2975},
-   {t:"14:00-15:30",cat:"shot",name:"日式風情｜桃園神社_昭和拾參",desc:"全台保存最完整的日式神社，園區內有文創小店可逛。",addr:"桃園區三元里成功路三段 200 號",lat:25.0098,lng:121.2983},
-   {t:"18:00-19:30",cat:"food",name:"豚骨拉麵｜石田一龍拉麵 - 台灣初號店",desc:"日本北九州拉麵賽 6 冠王，火車站旁寶慶路初號店，叉燒 MAX 拉麵超推，22:00 打烊。",addr:"桃園區寶慶路 92 號",lat:25.0080,lng:121.3030}
+   {t:"09:00-11:30",cat:"hike",name:"檜木森林浴｜東勢林業文化園區",desc:"走平緩的檜木林步道，空氣清新，負離子含量高。全程約 1.5 公里，鋪設完善，適合各年齡層。",addr:"東勢區東新路 1 號",lat:24.2660,lng:120.9220},
+   {t:"12:00-13:30",cat:"food",name:"東勢午餐｜老街美食",desc:"【午餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/東勢老街美食\" target=\"_blank\">東勢老街美食</a>（麵食、豆漿、粿類）<br>2. <a href=\"https://www.google.com/maps/search/東勢林業餐廳\" target=\"_blank\">東勢林業餐廳</a>（森林主題餐廳）<br>選定後可直接導航前往。",addr:"東勢區午餐地點",lat:24.2660,lng:120.9220},
+   {t:"14:00-15:30",cat:"shot",name:"林業文化｜東勢林場",desc:"參觀林業博物館，了解台灣林業發展史。園區內有林業列車可搭乘，適合全家大小。",addr:"東勢區林業路 100 號",lat:24.2665,lng:120.9225},
+   {t:"16:00-17:30",cat:"drive",name:"前往新社區",desc:"車程約 40 分鐘，前往新社區體驗溫泉文化。",addr:"新社區溫泉區",lat:24.1800,lng:120.8300},
+   {t:"18:00-19:30",cat:"food",name:"新社晚餐｜溫泉區或鄉民餐廳",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/新社溫泉區餐廳\" target=\"_blank\">新社溫泉區餐廳</a>（溫泉料理）<br>2. <a href=\"https://www.google.com/maps/search/新社鄉民餐廳\" target=\"_blank\">新社鄉民餐廳</a>（家常菜）<br>選定後可直接導航前往。",addr:"新社區晚餐地點",lat:24.1800,lng:120.8300}
    ],
-   tip:"虎頭山公園和土雞城都在虎頭山，下山直接吃午餐，完全順路。下午南下桃園市區逛神社，晚餐在火車站旁吃石田一龍拉麵。晚餐後回韋廷家過夜。",
+   tip:"新社溫泉區可泡湯放鬆，或返回台中市區住宿。12/27 早上從新社或台中出發前往香山。",
  },
- {no:3,date:"10/26",wd:"一",title:"楊梅茶園丘陵與客家庄風味",img:IMG.d3,
-  route:"行程最為寬鬆的一天，深入體驗客家文化，午後悠閒返程。",
+ {no:3,date:"12/27",wd:"日",title:"香山紅樹林 × 新竹市區",img:IMG.d3,
+  route:"行程最為寬鬆的一天，深入體驗海岸濕地文化，午後悠閒返程。",
   items:[
-  {t:"09:30-11:30",cat:"hike",name:"開闊丘陵｜秀才登山步道",desc:"O 型平緩路線，穿梭於翠綠茶樹與農田間，視野極佳。",addr:"楊梅區秀才里（導航設定步道口）",lat:24.9130,lng:121.1500},
-  {t:"12:00-13:30",cat:"food",name:"客家午餐｜楊梅頂級客家菜",desc:"【午餐三選一】<br>1. <a href=\"https://www.google.com/maps/search/八方園百年三合院客家餐廳+楊梅\" target=\"_blank\">八方園百年三合院客家餐廳</a>（校前路 580 號，★4.8）<br>2. <a href=\"https://www.google.com/maps/search/家常菜張小蘭+楊梅\" target=\"_blank\">家常菜張小蘭</a>（三元街 132-1 號，★4.7）<br>3. <a href=\"https://www.google.com/maps/search/善緣客家小館+楊梅\" target=\"_blank\">善緣客家小館</a>（楊新路 101 號，★4.6）<br>選定後可直接導航前往。",addr:"楊梅區午餐地點",lat:24.9150,lng:121.1580},
-  {t:"14:00-15:30",cat:"rest",name:"歐式庭園｜楊梅雅聞魅力博覽館",desc:"在玫瑰花園中喝杯下午茶，為這趟旅程畫下句點。",addr:"楊梅區中山北路一段 21 巷 1 號",lat:24.9172,lng:121.1545},
-  {t:"16:00-17:00",cat:"drive",name:"前往高鐵桃園站",desc:"開瀚凱的 RAV4 前往高鐵桃園站，載賀百跟家禎。",addr:"高鐵北路一段 6 號",lat:25.0150,lng:121.2144},
-  {t:"17:00-17:30",cat:"drive",name:"返回韋廷家（龍潭）",desc:"載賀百跟家禎上車後，開回韋廷家（龍潭文化路 1142 巷 6 號）休息。",addr:"龍潭區文化路 1142 巷 6 號",lat:24.8599,lng:121.2510},
-  {t:"17:30",cat:"drive",name:"驅車南下回家",desc:"從韋廷家出發，開瀚凱的 RAV4 南下至彰化還車（和凱在彰化）。",addr:"駕車南下回家",lat:24.0,lng:120.5}
+  {t:"09:00-11:30",cat:"hike",name:"海岸濕地｜香山紅樹林生態步道",desc:"O 型平緩路線，穿梭於紅樹林與沙灘間，可觀察候鳥與潮間帶生態。全程約 2 公里，鋪設完善。",addr:"香山區紅樹林生態步道",lat:24.7750,lng:120.9850},
+  {t:"12:00-13:30",cat:"food",name:"香山午餐｜海鮮或客家菜",desc:"【午餐三選一】<br>1. <a href=\"https://www.google.com/maps/search/香山漁港海鮮餐廳\" target=\"_blank\">香山漁港海鮮餐廳</a>（新鮮海鮮，★4.6）<br>2. <a href=\"https://www.google.com/maps/search/新竹市區客家菜\" target=\"_blank\">新竹市區客家菜</a>（菜脯蛋、梅干扣肉，★4.5）<br>3. <a href=\"https://www.google.com/maps/search/新竹市區麵食\" target=\"_blank\">新竹市區麵食</a>（滷肉飯、擔擔麵，★4.4）<br>選定後可直接導航前往。",addr:"香山區午餐地點",lat:24.7750,lng:120.9850},
+  {t:"14:00-15:30",cat:"rest",name:"文化體驗｜新竹城隍廟周邊",desc:"逛城隍廟商圈，品嚐竹東肉圓、米粉等新竹特色小吃。",addr:"東區城隍廟周邊",lat:24.8050,lng:120.9660},
+  {t:"16:00-17:00",cat:"drive",name:"返程",desc:"開車返回台中市區，結束愉快的三日之旅。",addr:"台中市區",lat:24.1470,lng:120.6790}
   ],
-  tip:"週一楊梅車流少，14:00 的下午茶時段建議訂位。16:00 出發去高鐵桃園站載賀百跟家禎，17:00 回韋廷家，17:30 出發回家，開瀚凱的 RAV4 南下至彰化還車（和凱在彰化）。"}
+  tip:"週日香山車流少，14:00 的城隍廟商圈建議慢慢逛。16:00 出發返回台中，結束旅程。"}
 ];
 
 
-/* Typhoon backup data */
+/* Rainy backup data */
 const BACKUPS=[
- {no:1,title:"D1 復興區・大溪區備案",
+ {no:1,title:"D1 角板山・南庄備案",
   items:[
-   {orig:"東眼山國家森林遊樂區",alt:"大溪木藝生態博物館",detail:"📍 大溪區和平路二段 36 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 日治警察宿舍群，木器工藝展＋咖啡廳"},
-   {orig:"角板山形象商圈午餐",alt:"角板山行館＋景觀餐廳",detail:"📍 復興區中正路 209 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 蔣介石行館建築（需預約）"},
-   {orig:"小烏來天空步道",alt:"金蘭醬油觀光工廠",detail:"📍 大溪區仁武里仁美街 2 之 1 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 醬油釀造展示＋DIY NT$150"}
+   {orig:"角板山行館（戶外）",alt:"大溪木藝生態博物館",detail:"📍 大溪區和平路二段 36 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 日治警察宿舍群，木器工藝展＋咖啡廳"},
+   {orig:"角板山林步道",alt:"角板山景觀餐廳（室內）",detail:"📍 復興區中正路 209 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 蔣介石行館建築（需預約）"}
   ],
-  route:"韋廷家（龍潭）→ 大溪木藝生態博物館（09:30）→ 角板山行館＋午餐（12:00）→ 金蘭醬油觀光工廠（13:30）→ 大溪老街散步（15:00）→ 大溪老茶廠（16:00）→ 龍潭晚餐（17:30）"},
- {no:2,title:"D2 龜山・桃園市區備案",
+  route:"台中 → 大溪木藝生態博物館（14:00）→ 角板山景觀餐廳（16:00）→ 南庄老街（18:30）→ 南庄晚餐（19:30）"},
+ {no:2,title:"D2 東勢・新社備案",
   items:[
-   {orig:"虎頭山公園",alt:"IKEA 桃園店",detail:"📍 龜山區復興一路 600 號 ｜ 🕘 10:00–21:00 ｜ 免費 ｜ 逛賣場＋樓上餐廳午餐"},
-   {orig:"虎頭山土雞城",alt:"大江國際購物中心",detail:"📍 中壢區中大路 200 號 ｜ 🕘 11:00–22:00 ｜ 免費 ｜ 美食街＋餐廳樓層"},
-   {orig:"桃園神社（半戶外）",alt:"桃園市立圖書館新總館",detail:"📍 桃園區南平路 263 號 ｜ 🕘 09:00–21:00 ｜ 免費 ｜ 蔦屋書店＋星巴克＋閱讀空間"}
+   {orig:"東勢檜木林步道",alt:"東勢林業博物館（室內）",detail:"📍 東勢區東新路 1 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 林業發展史展示＋林業列車"},
+   {orig:"東勢林場（戶外）",alt:"東勢林場室內展覽",detail:"📍 東勢區林業路 100 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 林業設備展示"}
   ],
-  route:"韋廷家（龍潭）→ IKEA 桃園店（09:30）→ 大江購物中心午餐（12:00）→ 桃園市立圖書館新總館（14:00）→ 石田一龍拉麵（18:00）"},
- {no:3,title:"D3 楊梅區備案",
+  route:"南庄 → 東勢林業博物館（09:00）→ 東勢老街午餐（12:00）→ 東勢林場室內展覽（14:00）→ 新社溫泉區（16:00）→ 新社晚餐（18:00）"},
+ {no:3,title:"D3 香山備案",
   items:[
-   {orig:"秀才登山步道",alt:"可口可樂世界",detail:"📍 中壢區中豐路 166 號 ｜ 🕘 10:00–17:00 ｜ NT$300 ｜ 互動展覽＋限定商品＋DIY 體驗"}
+   {orig:"香山紅樹林步道",alt:"新竹科學博物館（室內）",detail:"📍 東區科學路 1 號 ｜ 🕘 09:00–17:00 ｜ 全票 NT$200 ｜ 互動展覽＋親子友善"},
+   {orig:"香山漁港",alt:"新竹城隍廟商圈（半室內）",detail:"📍 東區城隍廟周邊 ｜ 🕘 全天 ｜ 免費 ｜ 竹東肉圓、米粉等小吃"}
   ],
-  route:"韋廷家（龍潭）→ 可口可樂世界（10:00）→ 楊梅客家菜午餐（12:00）→ 雅聞博覽館下午茶（14:00）→ 高鐵桃園站接人（16:00）"}
+  route:"台中 → 新竹科學博物館（09:00）→ 新竹市區午餐（12:00）→ 城隍廟商圈（14:00）→ 返程（16:00）"}
 ];
 function dayCard(d){
  const backupItems=BACKUPS.find(b=>b.no===d.no);
@@ -441,7 +424,7 @@ function dayCard(d){
  const switcher=hasBackup?`
  <div class="day-switch">
   <button class="sw-btn active" id="sw-${d.no}-orig" onclick="switchDay(${d.no},'orig')">🏔 原行程</button>
-  <button class="sw-btn alt" id="sw-${d.no}-backup" onclick="switchDay(${d.no},'backup')">🌀 颱風備案</button>
+  <button class="sw-btn alt" id="sw-${d.no}-backup" onclick="switchDay(${d.no},'backup')">🌧 雨天備案</button>
  </div>`:'';
 
  return `<div class="day" id="d${d.no}" data-orig-html="${origHtml.replace(/"/g,'&quot;')}">
@@ -449,7 +432,7 @@ function dayCard(d){
  <div class="info"><div>
  <div class="date">DAY ${d.no}｜${d.date}（週${d.wd}）</div>
  <h3>${d.title}</h3>
- <div class="tagline">桃園市・${d.no===1?'復興區／大溪區／龍潭區':d.no===2?'桃園區（大有特區）':'楊梅區'}</div>
+ <div class="tagline">桃園市・${d.no===1?'復興區／南庄鄉':d.no===2?'東勢區／新社區':'香山區'}</div>
  </div></div></div>
  <div class="day-body">
  ${switcher}
@@ -488,7 +471,7 @@ function backupCard(b){
  const boxId=`backup-box-${b.no}`;
  return `<div class="day" style="margin-bottom:24px">
  <div class="day-body">
- <button class="backup-toggle" onclick="document.getElementById('${boxId}').classList.toggle('show')">🌀 ${b.title}（點擊展開）</button>
+ <button class="backup-toggle" onclick="document.getElementById('${boxId}').classList.toggle('show')">🌧 ${b.title}（點擊展開）</button>
  <div class="backup-box" id="${boxId}">
  <h4>🔄 原行程 vs 備案對照</h4>
  <table class="backup-table">
