@@ -182,7 +182,7 @@ img{max-width:100%}
 <a href="#weather">天氣預報</a>
 <a href="#days">三日行程</a>
 <a href="#d1">D1 角板山・龍潭</a>
-<a href="#d2">D2 慈湖・頭嵙山</a>
+<a href="#d2">D2 慈湖・埔頂森林</a>
 <a href="#d3">D3 龍安森林・1968文創</a>
 <a href="#backup">🌀 雨天備案</a>
 <a href="#food">餐廳清單</a>
@@ -196,7 +196,7 @@ img{max-width:100%}
 <a href="#weather" onclick="closeDrawer()">天氣預報</a>
 <a href="#days" onclick="closeDrawer()">三日行程</a>
 <a href="#d1" onclick="closeDrawer()">D1 角板山・龍潭 <span class="ddate">12/25</span></a>
-<a href="#d2" onclick="closeDrawer()">D2 慈湖・頭嵙山 <span class="ddate">12/26</span></a>
+<a href="#d2" onclick="closeDrawer()">D2 慈湖・埔頂森林 <span class="ddate">12/26</span></a>
 <a href="#d3" onclick="closeDrawer()">D3 龍安森林・1968文創 <span class="ddate">12/27</span></a>
 <a href="#backup" onclick="closeDrawer()">🌀 雨天備案</a>
 <a href="#food" onclick="closeDrawer()">餐廳清單</a>
@@ -246,7 +246,7 @@ img{max-width:100%}
 <h4>🎒 穿衣建議</h4>
 <ul>
 <li>12 月氣溫較涼（15-23°C），建議穿著長袖上衣</li>
-<li>山區（角板山、頭嵙山）早晚較涼，建議帶一件防風外套或薄毛衣</li>
+<li>山區（角板山）早晚較涼，建議帶一件防風外套或薄毛衣</li>
 <li>龍潭大池湖畔風較大，建議帶防風外套</li>
 <li>穿防滑舒適的運動鞋或輕便健行鞋</li>
 <li>防曬：太陽眼鏡、帽子（12 月陽光仍強）</li>
@@ -353,12 +353,12 @@ const DAYS=[
   {t:"19:30-21:00",cat:"food",name:"龍潭晚餐｜在地美食",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/龍潭大池周邊餐廳\" target=\"_blank\">龍潭大池畔餐廳</a>（湖景景觀餐廳）<br>2. <a href=\"https://www.google.com/maps/search/龍潭老街美食\" target=\"_blank\">龍潭老街美食</a>（客家料理、茶葉蛋）<br>選定後可直接導航前往。",addr:"龍潭區晚餐地點",lat:24.8640,lng:121.2110}
   ],
   tip:"晚餐後可返回桃園市區住宿，或選擇龍潭地區住宿。12/26 早上從龍潭或桃園出發前往慈湖。"},
- {no:2,date:"12/26",wd:"六",title:"慈湖紀念雕塑 × 頭嵙山檜木林",img:IMG.d2,
-   route:"從桃園出發，開往大溪慈湖紀念雕塑公園，走平緩步道。下午前往頭嵙山森林遊樂區，體驗檜木林步道。晚餐後住桃園市區。",
+ {no:2,date:"12/26",wd:"六",title:"慈湖紀念雕塑 × 埔頂森林浴",img:IMG.d2,
+   route:"從桃園出發，開往大溪慈湖紀念雕塑公園，走平緩步道。下午在大溪埔頂公園散步，繞行林蔭森林步道一圈。晚餐後住桃園市區。",
    items:[
    {t:"09:00-11:00",cat:"hike",name:"湖光山色｜慈湖紀念雕塑公園",desc:"環湖步道平緩好走，全程約 1.5 公里。可欣賞蔣介石銅像、湖光山色與雕塑作品。空氣清新，適合全家大小。",addr:"大溪區慈湖路三段 1 號",lat:24.8130,lng:121.2390},
    {t:"11:30-13:00",cat:"food",name:"大溪午餐｜在地美食",desc:"【午餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/大溪老街美食\" target=\"_blank\">大溪老街美食</a>（豆腐製品、麵線）<br>2. <a href=\"https://www.google.com/maps/search/大溪在地餐廳\" target=\"_blank\">大溪在地餐廳</a>（客家料理）<br>選定後可直接導航前往。",addr:"大溪區午餐地點",lat:24.8830,lng:121.2820},
-   {t:"14:00-16:00",cat:"hike",name:"檜木森林浴｜頭嵙山森林遊樂區",desc:"走平緩的檜木林步道，空氣清新，負離子含量高。全程約 1 公里，鋪設完善，適合各年齡層。",addr:"龍潭區頭嵙山",lat:24.8450,lng:121.2250},
+   {t:"14:00-16:00",cat:"hike",name:"森林浴｜大溪埔頂公園",desc:"林蔭大道＋平緩森林環線步道，全程繞行一圈約 30 分鐘，起伏不大好走，萬坪草皮與高大樹木環繞，空氣清新，適合各年齡層。",addr:"大溪區公園路 111 號",lat:24.8850,lng:121.2850},
    {t:"17:00-18:00",cat:"drive",name:"返回桃園市區",desc:"車程約 30 分鐘，返回桃園市區休息。",addr:"桃園區",lat:24.9900,lng:121.3000},
    {t:"18:30-20:00",cat:"food",name:"桃園晚餐｜在地美食",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/桃園藝文特區美食\" target=\"_blank\">桃園藝文特區美食</a>（多元料理）<br>2. <a href=\"https://www.google.com/maps/search/桃園夜市美食\" target=\"_blank\">桃園夜市美食</a>（夜市小吃）<br>選定後可直接導航前往。",addr:"桃園區晚餐地點",lat:24.9900,lng:121.3000}
    ],
@@ -384,10 +384,10 @@ const BACKUPS=[
    {orig:"角板山林步道",alt:"角板山景觀餐廳（室內）",detail:"📍 復興區中正路 209 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 蔣介石行館建築（需預約）"}
   ],
   route:"桃園 → 大溪木藝生態博物館（14:00）→ 角板山景觀餐廳（16:00）→ 龍潭大池（18:00）→ 龍潭晚餐（19:30）"},
- {no:2,title:"D2 慈湖・頭嵙山備案",
+ {no:2,title:"D2 慈湖・埔頂森林備案",
   items:[
    {orig:"慈湖環湖步道",alt:"慈湖紀念雕塑公園室內展館",detail:"📍 大溪區慈湖路三段 1 號 ｜ 🕘 09:00–17:00 ｜ 免費 ｜ 蔣介石銅像展示＋湖景"},
-   {orig:"頭嵙山檜木林步道",alt:"龍潭龍山寺（室內）",detail:"📍 龍潭區龍山路二段 123 號 ｜ 🕘 06:00–22:00 ｜ 免費 ｜ 百年古廟，建築精美"}
+   {orig:"埔頂公園森林步道",alt:"龍潭龍山寺（室內）",detail:"📍 龍潭區龍山路二段 123 號 ｜ 🕘 06:00–22:00 ｜ 免費 ｜ 百年古廟，建築精美"}
   ],
   route:"桃園 → 慈湖紀念雕塑公園（09:00）→ 大溪老街午餐（11:30）→ 龍山寺（14:00）→ 桃園晚餐（18:30）"},
  {no:3,title:"D3 龍安森林・1968 備案",
