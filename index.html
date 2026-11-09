@@ -44,6 +44,17 @@ nav{position:sticky;top:0;z-index:50;background:rgba(247,245,238,.92);backdrop-f
 .hero .stat{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:14px;padding:10px 18px;font-size:14px}
 .hero .stat b{display:block;font-size:18px;font-family:'Noto Serif TC',serif}
 
+/* route overview board */
+.route-day{margin-bottom:24px}
+.route-day .dlabel{font-family:'Noto Serif TC',serif;font-weight:900;color:var(--green2);font-size:16px;margin-bottom:10px}
+.route{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.route .node{flex:1 1 140px;min-width:130px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px;box-shadow:var(--shadow);position:relative}
+.route .node .city{font-weight:800;font-size:16px;color:var(--green2)}
+.route .node .meta{font-size:12.5px;color:#6c7a70;margin-top:4px}
+.route .node .n{position:absolute;top:10px;right:12px;font-size:11px;color:var(--gold);font-weight:700}
+.route .node.base{border:2px solid var(--gold)}
+.route .arrow{align-self:center;font-size:20px;color:var(--green);font-weight:900;flex:0 0 auto}
+
 /* section */
 section{padding:48px 0}
 .sec-title{display:flex;align-items:center;gap:14px;margin-bottom:8px}
@@ -180,6 +191,7 @@ img{max-width:100%}
 <span class="brand">🏔 桃園三日 12/25–27</span>
 <div class="nav">
 <a href="#weather">天氣預報</a>
+<a href="#route">路線總覽</a>
 <a href="#days">三日行程</a>
 <a href="#d1">D1 角板山・龍潭</a>
 <a href="#d2">D2 慈湖・埔頂森林</a>
@@ -205,7 +217,7 @@ img{max-width:100%}
 <header class="hero"><div class="container">
 <span class="kicker">2026.12.25 – 12.27 · 聖誕節連假</span>
 <h1>桃園三日微健行<br>角板山 × 龍潭大池 × 檜木森林</h1>
-<p class="sub">結合平緩步道、湖光山色與林業文化，全程適合老少同行。以<span style="font-weight:700">自駕車輛</span>從桃園市區出發，展開這趟山林放鬆之旅。</p>
+<p class="sub">結合平緩步道、湖光山色與林業文化，全程適合老少同行。以<span style="font-weight:700">自駕車輛</span>從韋廷家（龍潭）出發，展開這趟山林放鬆之旅。</p>
 <div class="stats">
 <div class="stat"><b>3 天 2 夜</b>平緩步道・不爬山</div>
 <div class="stat"><b>3 大主題</b>湖光山色／檜木森林／文創園區</div>
@@ -254,16 +266,57 @@ img{max-width:100%}
 </div>
 </div></section>
 
+<!-- 路線總覽 -->
+<section id="route"><div class="container">
+<div class="sec-title"><span class="no">01</span><h2>路線總覽</h2></div>
+<p class="sec-sub">三天皆從<b>韋廷家（龍潭文化路 1142 巷 6 號）</b>出發，夜裡返回韋廷家過夜，每段開車控制在 1 小時內。</p>
+<div class="route-day">
+<div class="dlabel">D1・12/25（五）角板山 × 龍潭大池</div>
+<div class="route">
+<div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D1</span><div class="city">角板山</div><div class="meta">復興・別墅／森林步道</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D1</span><div class="city">龍潭大池</div><div class="meta">龍潭・自然教育＋咖啡</div></div>
+<div class="arrow">→</div>
+<div class="node base"><span class="n">過夜</span><div class="city">韋廷家</div><div class="meta">龍潭晚餐＋過夜</div></div>
+</div></div>
+<div class="route-day">
+<div class="dlabel">D2・12/26（六）慈湖 × 埔頂森林</div>
+<div class="route">
+<div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D2</span><div class="city">慈湖紀念雕塑公園</div><div class="meta">大溪・平緩步道</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D2</span><div class="city">大溪午餐</div><div class="meta">大溪老街周邊</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D2</span><div class="city">埔頂公園</div><div class="meta">大溪・30 分森林環線</div></div>
+<div class="arrow">→</div>
+<div class="node base"><span class="n">過夜</span><div class="city">韋廷家</div><div class="meta">桃園晚餐後返回過夜</div></div>
+</div></div>
+<div class="route-day">
+<div class="dlabel">D3・12/27（日）龍安森林 × 1968 文創</div>
+<div class="route">
+<div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D3</span><div class="city">龍安森林步道</div><div class="meta">桃園區・龍安街綠廊</div></div>
+<div class="arrow">→</div>
+<div class="node"><span class="n">D3</span><div class="city">1968 文創園區</div><div class="meta">龜山・眷村文化園區</div></div>
+<div class="arrow">→</div>
+<div class="node base"><span class="n">返程</span><div class="city">各自返程</div><div class="meta">結束旅程</div></div>
+</div></div>
+</div></section>
+
 <!-- 三日行程 -->
 <section id="days"><div class="container">
-<div class="sec-title"><span class="no">01</span><h2>三日行程</h2></div>
-<p class="sec-sub">每日動線由北往南推進，開車時間皆控制在 1 小時內，輕鬆不趕路。每日從桃園市區出發。</p>
+<div class="sec-title"><span class="no">02</span><h2>三日行程</h2></div>
+<p class="sec-sub">每日動線由北往南推進，開車時間皆控制在 1 小時內，輕鬆不趕路。每日從韋廷家（龍潭）出發。</p>
 <div id="daylist"></div>
 </div></section>
 
 <!-- 餐廳清單 -->
 <section id="food"><div class="container">
-<div class="sec-title"><span class="no">02</span><h2>餐廳清單</h2></div>
+<div class="sec-title"><span class="no">03</span><h2>餐廳清單</h2></div>
 <p class="sec-sub">全部分佈在行程動線上，建議提前 1–2 天訂位（週六、週日為滿座高風險時段）。</p>
 
 <div class="food-day">
@@ -301,7 +354,7 @@ img{max-width:100%}
 
 <!-- 雨天備案 -->
 <section id="backup"><div class="container">
-<div class="sec-title"><span class="no">03</span><h2>🌧 雨天備案</h2></div>
+<div class="sec-title"><span class="no">04</span><h2>🌧 雨天備案</h2></div>
 <p class="sec-sub">當中央氣象署發布大雨特報，或單日降雨機率 &gt; 70% 時啟動備案。所有備案皆為 <b>室內／半室內</b> 景點，動線與原行程一致。</p>
 
 <div class="emergency" style="margin-bottom:24px">
@@ -318,7 +371,7 @@ img{max-width:100%}
 
 <!-- 行前檢查 -->
 <section id="checklist"><div class="container">
-<div class="sec-title"><span class="no">04</span><h2>行前檢查清單</h2></div>
+<div class="sec-title"><span class="no">05</span><h2>行前檢查清單</h2></div>
 <div class="gear">
 <div class="g"><b>📱 出發前 3 天</b>查詢中央氣象署天氣動態</div>
 <div class="g"><b>🚗 車輛檢查</b>雨刷、煞車、胎紋（山路濕滑）</div>
@@ -345,27 +398,27 @@ const IMG={
 
 const DAYS=[
  {no:1,date:"12/25",wd:"五",title:"角板山行館 × 龍潭大池",img:IMG.d1,
-  route:"12/24 晚先到桃園市區住宿，12/25 下午從桃園出發，開往復興區角板山，再南下龍潭大池。晚餐後住龍潭或返回桃園。",
+  route:"12/25 下午從韋廷家（龍潭）出發，開往復興區角板山，再南下龍潭大池。晚餐後返回韋廷家過夜。",
   items:[
   {t:"14:00-16:00",cat:"shot",name:"景觀步道｜角板山行館",desc:"蔣介石行館建築（需預約），搭配景觀餐廳與涼亭，可俯瞰大溪水庫全景。步道平緩，適合全家大小。",addr:"復興區中正路 209 號",lat:24.8327,lng:121.2333},
   {t:"16:30-17:30",cat:"hike",name:"平緩步道｜角板山林步道",desc:"沿著山稜線鋪設的木棧道，全程平緩好走，林蔭茂密，適合老少同行。",addr:"復興區角板山",lat:24.8330,lng:121.2340},
   {t:"18:00-19:00",cat:"drive",name:"前往龍潭大池",desc:"車程約 50 分鐘，前往龍潭大池畔散步、欣賞湖景。",addr:"龍潭區中大路",lat:24.8640,lng:121.2110},
   {t:"19:30-21:00",cat:"food",name:"龍潭晚餐｜在地美食",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/龍潭大池周邊餐廳\" target=\"_blank\">龍潭大池畔餐廳</a>（湖景景觀餐廳）<br>2. <a href=\"https://www.google.com/maps/search/龍潭老街美食\" target=\"_blank\">龍潭老街美食</a>（客家料理、茶葉蛋）<br>選定後可直接導航前往。",addr:"龍潭區晚餐地點",lat:24.8640,lng:121.2110}
   ],
-  tip:"晚餐後可返回桃園市區住宿，或選擇龍潭地區住宿。12/26 早上從龍潭或桃園出發前往慈湖。"},
+  tip:"晚餐後返回韋廷家（龍潭）過夜。12/26 早上從韋廷家出發前往慈湖。"},
  {no:2,date:"12/26",wd:"六",title:"慈湖紀念雕塑 × 埔頂森林浴",img:IMG.d2,
-   route:"從桃園出發，開往大溪慈湖紀念雕塑公園，走平緩步道。下午在大溪埔頂公園散步，繞行林蔭森林步道一圈。晚餐後住桃園市區。",
+   route:"從韋廷家（龍潭）出發，開往大溪慈湖紀念雕塑公園，走平緩步道。下午在大溪埔頂公園散步，繞行林蔭森林步道一圈。晚餐後返回韋廷家過夜。",
    items:[
    {t:"09:00-11:00",cat:"hike",name:"湖光山色｜慈湖紀念雕塑公園",desc:"環湖步道平緩好走，全程約 1.5 公里。可欣賞蔣介石銅像、湖光山色與雕塑作品。空氣清新，適合全家大小。",addr:"大溪區慈湖路三段 1 號",lat:24.8130,lng:121.2390},
    {t:"11:30-13:00",cat:"food",name:"大溪午餐｜在地美食",desc:"【午餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/大溪老街美食\" target=\"_blank\">大溪老街美食</a>（豆腐製品、麵線）<br>2. <a href=\"https://www.google.com/maps/search/大溪在地餐廳\" target=\"_blank\">大溪在地餐廳</a>（客家料理）<br>選定後可直接導航前往。",addr:"大溪區午餐地點",lat:24.8830,lng:121.2820},
    {t:"14:00-16:00",cat:"hike",name:"森林浴｜大溪埔頂公園",desc:"林蔭大道＋平緩森林環線步道，全程繞行一圈約 30 分鐘，起伏不大好走，萬坪草皮與高大樹木環繞，空氣清新，適合各年齡層。",addr:"大溪區公園路 111 號",lat:24.8850,lng:121.2850},
-   {t:"17:00-18:00",cat:"drive",name:"返回桃園市區",desc:"車程約 30 分鐘，返回桃園市區休息。",addr:"桃園區",lat:24.9900,lng:121.3000},
+   {t:"17:00-18:00",cat:"drive",name:"返回桃園市區",desc:"車程約 30 分鐘，返回桃園市區，準備晚餐。",addr:"桃園區",lat:24.9900,lng:121.3000},
    {t:"18:30-20:00",cat:"food",name:"桃園晚餐｜在地美食",desc:"【晚餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/桃園藝文特區美食\" target=\"_blank\">桃園藝文特區美食</a>（多元料理）<br>2. <a href=\"https://www.google.com/maps/search/桃園夜市美食\" target=\"_blank\">桃園夜市美食</a>（夜市小吃）<br>選定後可直接導航前往。",addr:"桃園區晚餐地點",lat:24.9900,lng:121.3000}
    ],
-   tip:"晚餐後返回飯店休息。12/27 早上從桃園出發前往龍安森林步道。",
+   tip:"晚餐後返回韋廷家（龍潭）休息。12/27 早上從韋廷家出發前往龍安森林步道。",
  },
  {no:3,date:"12/27",wd:"日",title:"龍安森林步道 × 1968 文創園區",img:IMG.d3,
-  route:"行程最為寬鬆的一天，深入體驗桃園市區森林步道與文創園區，午後悠閒返程。",
+  route:"行程最為寬鬆的一天，深入體驗森林步道與文創園區，午後悠閒返程。",
   items:[
   {t:"09:00-11:00",cat:"hike",name:"城市森林｜龍安森林步道",desc:"O 型平緩路線，穿梭於桃園市區綠廊間，可觀察城市生態與鳥類。全程約 1.2 公里，鋪設完善。",addr:"桃園區龍安街",lat:24.9950,lng:121.2950},
   {t:"11:30-13:00",cat:"food",name:"1968 文創園區午餐｜華泰名品城",desc:"【午餐二選一】<br>1. <a href=\"https://www.google.com/maps/search/華泰名品城美食\" target=\"_blank\">華泰名品城美食</a>（連鎖餐廳，★4.3）<br>2. <a href=\"https://www.google.com/maps/search/1968 文創園區咖啡\" target=\"_blank\">1968 文創園區咖啡</a>（文創咖啡，★4.2）<br>選定後可直接導航前往。",addr:"龜山區午餐地點",lat:25.0100,lng:121.2200},
