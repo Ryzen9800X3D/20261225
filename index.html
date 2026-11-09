@@ -47,6 +47,8 @@ nav{position:sticky;top:0;z-index:50;background:rgba(247,245,238,.92);backdrop-f
 /* route overview board */
 .route-day{margin-bottom:24px}
 .route-day .dlabel{font-family:'Noto Serif TC',serif;font-weight:900;color:var(--green2);font-size:16px;margin-bottom:10px}
+.route-day .banner{border-radius:14px;overflow:hidden;margin-bottom:12px;border:1px solid var(--line)}
+.route-day .banner img{width:100%;height:150px;object-fit:cover;display:block}
 .route{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
 .route .node{flex:1 1 140px;min-width:130px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px;box-shadow:var(--shadow);position:relative}
 .route .node .city{font-weight:800;font-size:16px;color:var(--green2)}
@@ -61,6 +63,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(247,245,238,.92);backdrop-f
 .route .node .meta{font-size:12px}
 .route .arrow{transform:rotate(90deg);font-size:16px}
 .route-day .dlabel{font-size:14px}
+.route-day .banner img{height:110px}
 }
 
 /* section */
@@ -280,6 +283,7 @@ img{max-width:100%}
 <p class="sec-sub">三天皆從<b>韋廷家（龍潭文化路 1142 巷 6 號）</b>出發，夜裡返回韋廷家過夜，每段開車控制在 1 小時內。</p>
 <div class="route-day">
 <div class="dlabel">D1・12/25（五）角板山 × 石門山 × 龍潭大池</div>
+<div class="banner"><img src="images/d1_jiaobanshan.jpg" alt="D1 角板山、石門山、龍潭大池" loading="lazy"></div>
 <div class="route">
 <div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
 <div class="arrow">→</div>
@@ -293,6 +297,7 @@ img{max-width:100%}
 </div></div>
 <div class="route-day">
 <div class="dlabel">D2・12/26（六）滿月圓 × 1968 文創</div>
+<div class="banner"><img src="images/d3_longtan.jpg" alt="D2 滿月圓、1968 文創園區" loading="lazy"></div>
 <div class="route">
 <div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
 <div class="arrow">→</div>
@@ -306,6 +311,7 @@ img{max-width:100%}
 </div></div>
 <div class="route-day">
 <div class="dlabel">D3・12/27（日）慈湖 × 埔頂森林</div>
+<div class="banner"><img src="images/d2_cihu.jpg" alt="D3 慈湖、埔頂公園" loading="lazy"></div>
 <div class="route">
 <div class="node base"><span class="n">出發</span><div class="city">韋廷家</div><div class="meta">龍潭文化路 1142 巷</div></div>
 <div class="arrow">→</div>
